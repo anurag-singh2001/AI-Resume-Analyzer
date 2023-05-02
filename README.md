@@ -18,7 +18,7 @@ AI Resume Analyzer is a web application that helps job seekers find relevant job
 - HTML/CSS/JS
 
 ## Installation
-1. Clone the repository
+1. Clone the repository using `git clone https://github.com/anurag-singh2001/AI-Resume-Analyzer.git`
 2. Install the required libraries
 3. Run the app using `python app.py`
 4. Open your web browser and go to `http://127.0.0.1:5000/`
