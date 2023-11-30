@@ -61,6 +61,7 @@ def submit_data():
             string = string.replace('&', 'and')
             string = string.replace(',', ' ')
             string = string.replace('-', ' ')
+            string = string.replace('â€“', ' ')
             string = string.title() # normalise case - capital at start of each word
             string = re.sub(' +',' ',string).strip() # get rid of multiple spaces and replace with a single
             string = ' '+ string +' ' # pad names for ngrams...
